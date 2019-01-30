@@ -30,6 +30,7 @@
  1. Click on the Google Cloud project ID in your agent's setting to open the Google Cloud console
  1. Deploy fulfillment to Cloud Functions
    1. [Download and authenticate the Google Cloud SDK](https://cloud.google.com/sdk/docs/quickstart-macos)
+   1. Enter `gcp_cloudfunction` folder
    1. Run `gcloud functions deploy webhook --entry-point webhook --runtime python37 --trigger-http`, make a note of the service URL, which will be used in the next step
  1. Set the fulfillment URL in Dialogflow to your Cloud Functions URL
    1. Go to your [agent's fulfillment page](https://console.dialogflow.com/api-client/#/agent//fulfillment)
